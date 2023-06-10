@@ -20,7 +20,7 @@ public class Deneme {
     AndroidDriver<AndroidElement> driver; //android cihazlarin driveri
 
     //  AppiumDriver<MobileElement> appiumDriver; //hem android de hem de ios da calisir
-    final String cihazAdi="PIXEL2";
+    final String cihazAdi="pixel2";
     final String platformIsmi="Android";
     final String version="10.0";
     final String automation="UiAutomator2";
@@ -29,7 +29,7 @@ public class Deneme {
     public void deneme1() throws MalformedURLException {
         DesiredCapabilities capabilities=new DesiredCapabilities();
 
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"PIXEL");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"pixel2");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10.0");
